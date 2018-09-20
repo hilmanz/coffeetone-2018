@@ -547,10 +547,40 @@ footer .container-fluid{margin: 0 20px;}
 	.slider-6 .title-wrapper .title.about-ct-18 {margin-left:0;}
 	.slider-6 .background-frame .sl.left{right: auto; left: -55px; top: 140px; bottom: 0; font-size:13px;line-height:20px}
 }
-@media (max-width:375px) {
-	.slider-6 .background-entry.right_02 {width: 301px;}
-}
 
+/*--------------------------*/
+/* ADDED MEDIA QUERIES */
+/*--------------------------*/
+/* iPhone 6, 7, & 8 Plus in portrait */
+@media only screen
+and (min-device-width : 414px)
+and (max-device-width : 736px)
+and (orientation : portrait) {
+	.slider-6 .background-entry.right_02 {width: 350px;height: 100%;}
+}
+/* iPhone X in portrait*/
+@media only screen
+and (min-device-width : 375px)
+and (max-device-width : 812px)
+and (orientation : portrait) {
+	.slider-6 .background-entry.right_02 {width: 360px;height: 100%;}
+}
+/* iPhone 6, 7, & 8 in portrait */
+@media only screen
+and (min-device-width : 375px)
+and (max-device-width : 667px) {
+	.slider-6 .background-entry.right_02 {width: 300px;height: 100%;}
+}
+/* iPhone 5 & 5S in portrait */
+@media only screen
+and (min-device-width : 320px)
+and (max-device-width : 568px)
+and (orientation : portrait) {
+	.slider-6 .background-entry.right_02 {width: 265px;height: 100%;}
+}
+/*--------------------------*/
+/* END ADDED MEDIA QUERIES */
+/*--------------------------*/
 @media (max-width: 240px) {
 	.slider-6 .background-entry.right_01 {top: 50%;width: 301px;height: 50%;}
 	/*.slider-6 .background-entry.right_02 {width: 253px; height: 100%;}*/
